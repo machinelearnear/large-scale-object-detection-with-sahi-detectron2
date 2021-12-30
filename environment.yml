@@ -1,0 +1,20 @@
+# To use:
+#   $ conda env create -f environment.yml
+#   $ conda activate <name>
+name: machinelearnear-sahi
+dependencies:
+  - python=3.9
+  - pip
+  - nb_conda_kernels
+  - ipykernel
+  - ipywidgets
+  - gh
+  - pip:
+    - torch
+    - torchvision
+    - mmcv-full
+    - mmdet
+    - icevision[all]
+    - yolov5-icevision
+    - sahi
+    # - -r file:requirements.txt
