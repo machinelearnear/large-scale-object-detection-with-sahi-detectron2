@@ -3,7 +3,7 @@
 #   $ conda activate <name>
 name: machinelearnear-sahi
 dependencies:
-  - python=3.9
+  - python=3.8
   - pip
   - nb_conda_kernels
   - ipykernel
