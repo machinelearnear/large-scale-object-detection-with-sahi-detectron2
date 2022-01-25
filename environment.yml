@@ -1,7 +1,7 @@
 # To use:
 #   $ conda env create -f environment.yml
 #   $ conda activate <name>
-name: machinelearnear-sahi
+name: machinelearnear-detectron2-sahi
 dependencies:
   - python=3.8
   - pip
@@ -9,12 +9,11 @@ dependencies:
   - ipykernel
   - ipywidgets
   - gh
+  - opencv
   - pip:
+    - git+https://github.com/obss/sahi.git
+    - git+https://github.com/openai/CLIP.git
     - torch
     - torchvision
-    - mmcv-full
-    - mmdet
-    - icevision[all]
-    - yolov5-icevision
-    - sahi
+    - timm
     # - -r file:requirements.txt
