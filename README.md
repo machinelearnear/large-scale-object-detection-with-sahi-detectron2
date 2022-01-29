@@ -1,7 +1,5 @@
 # Large Scale Object Detection using SAHI and DETIC (Detectron2)
 
-## Sources
-
 - DETIC Paper: https://arxiv.org/abs/2201.02605
 - DETIC GitHub: https://github.com/facebookresearch/Detic
 - DETIC Explainer Video: https://www.youtube.com/watch?v=Xw2icCN5ZpM
