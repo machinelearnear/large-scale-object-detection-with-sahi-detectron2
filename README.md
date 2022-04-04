@@ -6,6 +6,9 @@
 - DETIC Quick Start in Studiolab: https://github.com/machinelearnear/detic-detecting-20k-classes-using-image-level-supervision
 - SAHI: https://github.com/obss/sahi
 
+## YouTube Video
+[![Large Scale Object Detection using SAHI and DETIC (Detectron2)](https://img.youtube.com/vi/r-QGxuMMWfA/0.jpg)](https://www.youtube.com/watch?v=r-QGxuMMWfA)
+
 ## What is DETIC?
 
 Detic: A Detector with image classes that can use image-level labels to easily train detectors. This means you can use more than 20k classes from ImageNet 21K or combine it with CLIP embeddings to expand to any number of classes. Please have a look at the [original repo](https://github.com/facebookresearch/Detic) for more information and check my [YouTube Video](https://www.youtube.com/watch?v=Xw2icCN5ZpM) and [Repo](https://github.com/machinelearnear/detic-detecting-20k-classes-using-image-level-supervision) to get started easily.
