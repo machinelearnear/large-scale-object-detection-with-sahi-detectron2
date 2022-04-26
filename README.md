@@ -32,6 +32,8 @@ Please go to the [original repo](https://github.com/obss/sahi) for more informat
 
 ## Why this repo?
 
+[![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/machinelearnear/large-scale-object-detection-with-sahi-detectron2/blob/main/quick-start.ipynb).
+
 This is a quick example that should get you started with the basics of SAHI combined with the flexibility that DETIC gives you to choose whatever set of classes you need for your use case without the need for any fine-tuning. This might be very useful to test an idea and get a project off the ground.
 
 This is the snippet of code that defines the `Detectron2DeticModel`
@@ -60,9 +62,9 @@ result = get_sliced_prediction(
 )
 ```
 
-## Note
-
-- Everything that you see here is not optimised for PROD workloads and should be taken with a pinch of salt. Use under your own discretion.
+## Disclaimer
+- The content provided in this repository is for demonstration purposes and not meant for production. You should use your own discretion when using the content.
+- The ideas and opinions outlined in these examples are my own and do not represent the opinions of AWS.
 
 ## References
 
